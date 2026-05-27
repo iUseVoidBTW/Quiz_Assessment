@@ -83,7 +83,7 @@ if want_instructions == "yes":
 
 # Ask user for number of questions / infinite mode along with range.
 num_questions = int_check("How many questions would you like? Push <enter> for infinite mode: ", 1, True)
-range_max = int_check("What would you like the range to be? e.g 1 to 12. \n\n1 to ", 2)
+range_max = int_check("What would you like the range to be? Minimum is 1 to 12. \n\n1 to ", 12)
 
 if num_questions == "infinite":
     mode = "infinite"
